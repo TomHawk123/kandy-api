@@ -1,0 +1,127 @@
+{
+    "customers": [
+        {
+            "id": 1,
+            "name": "Henry House",
+            "loyaltyMember": true
+        },
+        {
+            "id": 2,
+            "name": "David Clark",
+            "loyaltyMember": false
+        },
+        {
+            "id": 3,
+            "name": "Van Nguyen",
+            "loyaltyMember": true
+        },
+        {
+            "id": 4,
+            "name": "Randall Thomas",
+            "loyaltyMember": false
+        },
+        {
+            "id": 5,
+            "name": "Steve Brownlee",
+            "loyaltyMember": true
+        }
+    ],
+    "purchases": [],
+    "employees": [
+        {
+            "id": 1,
+            "locationId": 1,
+            "name": "Tyler Hilliard"
+        },
+        {
+            "id": 2,
+            "locationId": 2,
+            "name": "Devin Kent"
+        },
+        {
+            "id": 3,
+            "locationId": 3,
+            "name": "Jaimie Hart"
+        },
+        {
+            "id": 4,
+            "locationId": 1,
+            "name": "Airris Williams"
+        },
+        {
+            "id": 5,
+            "locationId": 2,
+            "name": "Chelsea Harris"
+        },
+        {
+            "id": 6,
+            "locationId": 3,
+            "name": "Will Wardrop"
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "address": "111 Candy Cane Lane",
+            "name": "Flagship",
+            "squareFootage": 1200,
+            "handicapAccessible": true
+        },
+        {
+            "id": 2,
+            "address": "781 Main Street",
+            "name": "Wonka's",
+            "squareFootage": 2500,
+            "handicapAccessible": true
+        },
+        {
+            "id": 3,
+            "address": "101 Poplar Street",
+            "name": "Mac and Isaac",
+            "squareFootage": 1800,
+            "handicapAccessible": true
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "productTypeId": 3,
+            "name": "Snickers",
+            "price": 1.99
+        },
+        {
+            "id": 2,
+            "productTypeId": 2,
+            "name": "Butterfinger",
+            "price": 1.79
+        },
+        {
+            "id": 3,
+            "productTypeId": 1,
+            "name": "Whatchamacallit",
+            "price": 1.29
+        },
+        {
+            "id": 4,
+            "productTypeId": 3,
+            "name": "Nerds",
+            "price": 0.99
+        },
+        {
+            "id": 5,
+            "productTypeId": 2,
+            "name": "Pixie Sticks",
+            "price": 0.79
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "candyCategory": "chocolate candy-bar"
+        },
+        {
+            "id": 2,
+            "candyCategory": "fruity sugar"
+        }
+    ]
+}
